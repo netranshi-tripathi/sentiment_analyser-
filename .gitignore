@@ -1,7 +1,6 @@
-# Byte-compiled / optimized / DLL files
+
 __pycache__/
-*.py[cod]
-*$py.class
+
 .env
 
 # Virtual environment
@@ -16,26 +15,6 @@ ENV/
 # VS Code settings
 .vscode/
 
-# OS files
-.DS_Store
-Thumbs.db
-
-# Log files
-*.log
-
-# Python egg files
-*.egg
-*.egg-info/
-dist/
-build/
-
-# Pipenv
-Pipfile.lock
-
-# Coverage reports
-htmlcov/
-.coverage
-.coverage.*
 
 # Test output
 *.pytest_cache/
@@ -44,17 +23,3 @@ htmlcov/
 # MyPy
 .mypy_cache/
 
-# Pyre type checker
-.pyre/
-
-# Temporary files
-*.tmp
-*.swp
-*.bak
-*.orig
-
-# OneDrive temp files
-~$*
-
-# Other
-*.sqlite3
