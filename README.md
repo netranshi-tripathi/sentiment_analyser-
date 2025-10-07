@@ -21,22 +21,26 @@ An AI-powered text generation system that analyzes sentiment from user prompts a
 ## Installation
 
 1. Clone repository:
+```sh
 git clone <your-repo>
 cd sentiment-text-generator
+```
 
-
-2. Install dependencies:
+3. Install dependencies:
+```sh
 pip install -r requirements.txt
+```
 
-
-3. Configure API key:
+5. Configure API key:
+```sh
 Create `.env` file:
 PERPLEXITY_API_KEY=your_key_here
+```
 
-
-4. Run application:
+7. Run application:
+```sh
 streamlit run app.py
-
+```
 
 ## Methodology
 
